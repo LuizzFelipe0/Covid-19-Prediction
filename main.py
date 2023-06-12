@@ -50,7 +50,7 @@ def predict(model, input_data):
 
 
 
-@app.get("/root", tags=["Raiz"])
+@app.get("/", tags=["Raiz"])
 def root():
     return {"message": "Simple ML API to predict Covid-19 diagnosys"}
 
